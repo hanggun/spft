@@ -31,6 +31,5 @@ def multi_process(func, iterable, nworkers):
     for i in range(NUMBER_OF_PROCESSES):
         task_queue.put('STOP')
 
-    # the results are unordered, so use original idx to recovery order
     results.sort(key=lambda x: x[0])
     return [x[1] for x in results]

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
   name="spft",
-  version="0.0.2",
+  version="0.0.3",
   author="shuai pan",
   author_email="panshuai2019ps@163.com",
   description="standard python functional tools",
